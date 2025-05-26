@@ -1,43 +1,38 @@
 
+
 .weather {
   max-width: 500px;
   margin: 50px auto;
   padding: 30px;
-  background: #f0f8ff;
+  background: #f0f4f8;
   border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
 }
 
-.search-form {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+form .form-control {
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
 }
-
-.search-form input[type="text"] {
-  flex: 1;
+form input.form-control {
+  border-radius: 8px;
   padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
   font-size: 16px;
 }
 
-.search-form button {
+form .btn {
   padding: 10px 20px;
-  background-color: #0077ff;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background 0.3s ease;
+  font-weight: 500;
+  border-radius: 8px;
 }
 
-.search-form button:hover {
-  background-color: #005fd1;
+form .btn:hover {
+  background-color: #0056b3;
 }
+
 
 .weather-info {
   text-align: center;
@@ -90,3 +85,4 @@
 .conditions li {
   margin: 5px 0;
 }
+
